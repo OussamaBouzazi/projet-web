@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compte</title>
+
+    <link rel="stylesheet" href="paiement.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+ 
+    <div class="heading">
+        <h1>Paiement
+        <hr>
+        </h1>
+    </div>
+    <div class="wrapper">
+        <h2>Formulaire de paiement</h2>
+        <form method="POST">
+            <h4>Compte</h4>
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Nom" class="Nom">
+                    <i class="fa fa-user icon"></i>
+                </div>
+                <div class="input-box">
+                    <input type="text" placeholder="Prénom" class="Nom">
+                    <i class="fa fa-user icon"></i>
+                </div>
+                <div class="input-box">
+                    <input type="Email" placeholder="Adresse mail" class="Nom">
+                    <i class="fa fa-envelope icon"></i>
+                </div>
+            </div>
+            <div class="inout-group">
+                <div class="input-box">
+                    <h4>Date de naissance</h4>
+                    <input type="text" placeholder="DD" class="dob">
+                    <input type="text" placeholder="MM" class="dob">
+                    <input type="text" placeholder="YYYY" class="dob">
+                </div>
+                <div class="input-box">
+                    <h4>Sexe</h4>
+                    <input type="radio" id="b1" name="sexe" checked class="radio">
+                    <label for="b1">Homme</label>
+                    <input type="radio" id="b2" name="sexe" checked class="radio">
+                    <label for="b2">Femme</label>
+                </div>
+
+            </div>
+            <div class="input-group">
+                <div class="input-box">
+                    <h4>Détails de paiement</h4>
+                    <input type="radio" name="pay" id="bc1" checked class="radio">
+                    <label for="bc1"><span><i ></i>Carte de crédit</span></label>
+                    <input type="radio" name="pay" id="bc2" checked class="radio">
+                    <label for="bc2"><span><i></i>Paypal</span></label>
+                
+                </div>
+
+
+
+
+            </div>
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="tel" placeholder="Numéro de carte" required class="Nom">
+                    <i class="fa fa-credit-card icon"></i>
+                </div>
+            </div>
+            <div class="input-group">
+                <h4>Date de paiement</h4>
+                <div class="input-box">
+                    <select>
+                        <option>01 juin</option>
+                        <option>02 juin</option>
+                        <option>03 juin</option>
+                    </select>
+                    <select>
+                        <option>2020</option>
+                        <option>2021</option>
+                        <option>2022</option>
+                    </select>
+                </div>
+            </div>
+            <div class="input-group">
+                <div class="input-box">
+                    <button type="submit">Payer</button>
+                </div>
+            </div>
+
+        </form>
+
+
+
+
+
+    </div>
+    
+
+
+    
+</body>

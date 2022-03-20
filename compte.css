@@ -1,0 +1,79 @@
+body{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    height: 760px;
+    width: 1280px;
+}
+.container{
+    width: 850px;
+    height: 500px;
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 229px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.heading {
+    margin-bottom: 0px;
+    margin-top: 60px;
+    text-align: center;
+    color: #C86C00;
+    
+}
+.profil{
+    margin-top: -250px ;
+    margin-left: -530px;
+    font-size: 22px;
+}
+.securite{
+    margin-top: -250px ;
+    margin-left: 200px;
+    font-size: 22px;
+}
+.securite img{
+    width: 30px;
+    margin-top: 50px;
+    cursor: pointer;
+    
+}
+
+.profil img{
+    width: 30px;
+    margin-top: 50px;
+    cursor: pointer;
+    
+}
+.comment{
+    font-size: 15px;
+    margin-left: 34px;
+    color: grey;
+}
+a:link{
+    color: black;
+    text-decoration: none;
+}
+.ordres{
+    margin-top: 70px ;
+    margin-left: -220px;
+    font-size: 22px;
+}
+.ordres img{
+    width: 30px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.paiement{
+    margin-top: 70px ;
+    margin-left: -645px;
+    font-size: 22px;
+}
+.paiement img{
+    width: 30px;
+    margin-top: 50px;
+    cursor: pointer;
+}
